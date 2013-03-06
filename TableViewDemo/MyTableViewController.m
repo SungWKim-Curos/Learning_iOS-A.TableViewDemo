@@ -30,4 +30,27 @@
     return 1 ;
 }
 
+
+-(UITableViewCell*) tableView:(UITableView*)tableView
+                        cellForRowAtIndexPath:(NSIndexPath*)indexPath
+{
+    // 생성/설정
+    static NSString* const CellIdentifier = @"Cell";
+    UITableViewCell *cell =
+        [ tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if( nil == cell )
+    {
+        cell = [ [UITableViewCell alloc]
+                    initWithStyle:UITableViewCellStyleDefault
+                    reuseIdentifier:CellIdentifier ];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    }
+    
+    // 내용추가
+    cell.textLabel.text = @"1" ;
+    
+    // 반환
+    return cell;
+}
+
 @end
