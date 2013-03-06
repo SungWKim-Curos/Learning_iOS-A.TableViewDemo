@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B45D84D616E6D75F00B49A48 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45D84D516E6D75F00B49A48 /* MyTableViewController.m */; };
 		E2B3CE9016E65BE7009BA4D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B3CE8F16E65BE7009BA4D3 /* UIKit.framework */; };
 		E2B3CE9216E65BE7009BA4D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B3CE9116E65BE7009BA4D3 /* Foundation.framework */; };
 		E2B3CE9416E65BE7009BA4D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B3CE9316E65BE7009BA4D3 /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B45D84D416E6D75F00B49A48 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		B45D84D516E6D75F00B49A48 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		E2B3CE8B16E65BE7009BA4D3 /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B3CE8F16E65BE7009BA4D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2B3CE9116E65BE7009BA4D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +91,8 @@
 				E2B3CEA716E65BE8009BA4D3 /* ViewController.h */,
 				E2B3CEA816E65BE8009BA4D3 /* ViewController.m */,
 				E2B3CEAA16E65BE8009BA4D3 /* ViewController.xib */,
+				B45D84D416E6D75F00B49A48 /* MyTableViewController.h */,
+				B45D84D516E6D75F00B49A48 /* MyTableViewController.m */,
 				E2B3CE9616E65BE7009BA4D3 /* Supporting Files */,
 			);
 			path = TableViewDemo;
@@ -176,6 +181,7 @@
 				E2B3CE9C16E65BE7009BA4D3 /* main.m in Sources */,
 				E2B3CEA016E65BE7009BA4D3 /* AppDelegate.m in Sources */,
 				E2B3CEA916E65BE8009BA4D3 /* ViewController.m in Sources */,
+				B45D84D616E6D75F00B49A48 /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +298,7 @@
 				E2B3CEB116E65BE8009BA4D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
