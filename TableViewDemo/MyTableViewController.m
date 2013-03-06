@@ -66,7 +66,12 @@
 -(void) tableView:(UITableView*)tableView
             didSelectRowAtIndexPath:(NSIndexPath*)indexPath
 {
+    UITableViewCell* oCell = [ tableView cellForRowAtIndexPath:indexPath ] ;
+    oCell.accessoryType =
+        UITableViewCellAccessoryNone == oCell.accessoryType ?
+            UITableViewCellAccessoryCheckmark : UITableViewCellAccessoryNone ;
     
+    [ tableView deselectRowAtIndexPath:indexPath animated:TRUE ] ;
 }
 
 @end
