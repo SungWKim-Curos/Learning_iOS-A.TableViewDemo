@@ -2,6 +2,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface MyTableViewController : UITableViewController
+@interface MyTableViewController :
+    UITableViewController < UITableViewDelegate, UITableViewDataSource >
 
 @end
