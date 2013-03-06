@@ -52,7 +52,7 @@
         cell = [ [UITableViewCell alloc]
                     initWithStyle:UITableViewCellStyleDefault
                     reuseIdentifier:CellIdentifier ];
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
     // 내용추가
@@ -60,6 +60,13 @@
     
     // 반환
     return cell;
+}
+
+
+-(void) tableView:(UITableView*)tableView
+            didSelectRowAtIndexPath:(NSIndexPath*)indexPath
+{
+    
 }
 
 @end
