@@ -1,6 +1,8 @@
 
 #import "MyTableViewController.h"
 
+#import "DetailController.h"
+
 
 @implementation MyTableViewController {
     NSMutableArray* m_oArray ;
@@ -52,7 +54,7 @@
         cell = [ [UITableViewCell alloc]
                     initWithStyle:UITableViewCellStyleDefault
                     reuseIdentifier:CellIdentifier ];
-        //cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
     // 내용추가
@@ -66,12 +68,10 @@
 -(void) tableView:(UITableView*)tableView
             didSelectRowAtIndexPath:(NSIndexPath*)indexPath
 {
-    UITableViewCell* oCell = [ tableView cellForRowAtIndexPath:indexPath ] ;
-    oCell.accessoryType =
-        UITableViewCellAccessoryNone == oCell.accessoryType ?
-            UITableViewCellAccessoryCheckmark : UITableViewCellAccessoryNone ;
+    DetailController* oVc = [ [DetailController alloc] initWithNibName:@"DetailController" bundle:nil ] ;
+    oVc->m_oText = [ tableView cellForRowAtIndexPath:indexPath ].textLabel.text ;
     
-    [ tableView deselectRowAtIndexPath:indexPath animated:TRUE ] ;
+    [ self.navigationController pushViewController:oVc animated:TRUE ] ;
 }
 
 @end

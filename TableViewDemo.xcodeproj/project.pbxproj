@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B45D84D616E6D75F00B49A48 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45D84D516E6D75F00B49A48 /* MyTableViewController.m */; };
 		B45D84D916E6D8C800B49A48 /* MyTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45D84D816E6D8C800B49A48 /* MyTableViewController.xib */; };
+		B45D852916E7283000B49A48 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45D852716E7283000B49A48 /* DetailController.m */; };
+		B45D852A16E7283000B49A48 /* DetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B45D852816E7283000B49A48 /* DetailController.xib */; };
 		E2B3CE9016E65BE7009BA4D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B3CE8F16E65BE7009BA4D3 /* UIKit.framework */; };
 		E2B3CE9216E65BE7009BA4D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B3CE9116E65BE7009BA4D3 /* Foundation.framework */; };
 		E2B3CE9416E65BE7009BA4D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B3CE9316E65BE7009BA4D3 /* CoreGraphics.framework */; };
@@ -26,6 +28,9 @@
 		B45D84D416E6D75F00B49A48 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
 		B45D84D516E6D75F00B49A48 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		B45D84D816E6D8C800B49A48 /* MyTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewController.xib; sourceTree = "<group>"; };
+		B45D852616E7283000B49A48 /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		B45D852716E7283000B49A48 /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		B45D852816E7283000B49A48 /* DetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailController.xib; sourceTree = "<group>"; };
 		E2B3CE8B16E65BE7009BA4D3 /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B3CE8F16E65BE7009BA4D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2B3CE9116E65BE7009BA4D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +101,9 @@
 				B45D84D416E6D75F00B49A48 /* MyTableViewController.h */,
 				B45D84D516E6D75F00B49A48 /* MyTableViewController.m */,
 				B45D84D816E6D8C800B49A48 /* MyTableViewController.xib */,
+				B45D852616E7283000B49A48 /* DetailController.h */,
+				B45D852716E7283000B49A48 /* DetailController.m */,
+				B45D852816E7283000B49A48 /* DetailController.xib */,
 				E2B3CE9616E65BE7009BA4D3 /* Supporting Files */,
 			);
 			path = TableViewDemo;
@@ -172,6 +180,7 @@
 				E2B3CEA616E65BE8009BA4D3 /* Default-568h@2x.png in Resources */,
 				E2B3CEAC16E65BE8009BA4D3 /* ViewController.xib in Resources */,
 				B45D84D916E6D8C800B49A48 /* MyTableViewController.xib in Resources */,
+				B45D852A16E7283000B49A48 /* DetailController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +195,7 @@
 				E2B3CEA016E65BE7009BA4D3 /* AppDelegate.m in Sources */,
 				E2B3CEA916E65BE8009BA4D3 /* ViewController.m in Sources */,
 				B45D84D616E6D75F00B49A48 /* MyTableViewController.m in Sources */,
+				B45D852916E7283000B49A48 /* DetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
